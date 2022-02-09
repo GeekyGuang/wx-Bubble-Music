@@ -1,6 +1,7 @@
 {
   "pages": [
-    "pages/home-music/index"
+    "pages/home-music/index",
+    "pages/home-video/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -10,5 +11,17 @@
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",
-  "lazyCodeLoading": "requiredComponents"
+  "lazyCodeLoading": "requiredComponents",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home-music/index",
+        "text": "音乐"
+      },
+      {
+        "pagePath": "pages/home-video/index",
+        "text": "视频"
+      }
+    ]
+  }
 }
